@@ -1,0 +1,44 @@
+.cover-height {
+  max-width: 950px;
+  height: 342px;
+}
+.cover-parent {
+  height: 342px;
+}
+.profile-user-info {
+  width: 950px;
+}
+.friend-link{
+    display: block;
+  }
+.friend-link-copy{
+    display: none;
+  }
+
+@media only screen and (max-width: 950px) {
+  .cover-height {
+    height: 36vw;
+  }
+  .cover-parent {
+    height: 36vw;
+  }
+  .profile-user-info {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 380px){
+  .profile-buttons{
+    flex-direction: column;
+    width: 100%;
+  }
+  .profile-buttons button{
+    width: 100%;
+    justify-content: center;
+  }
+  .friend-link{
+    display: none;
+  }
+  .friend-link-copy{
+    display: block;
+  }
+}

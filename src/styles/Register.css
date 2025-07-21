@@ -1,0 +1,285 @@
+.register-heading {
+  font-size: 25px;
+}
+.question {
+  background-color: rgb(119, 119, 119);
+  padding: 4px;
+  clip-path: circle();
+  margin-left: 5px;
+  width: max-content;
+  color: white;
+  font-size: 9px;
+}
+.flex-column {
+  flex-direction: column !important;
+}
+.p-2 {
+  padding: 7px;
+}
+.gap-3 {
+  gap: 10px;
+}
+.text-sm {
+  font-size: 12px;
+}
+.text-signup, .decoration-color {
+  color: #5f5f5fdc;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: none;
+}
+.decoration-color {
+  color: #35518a;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: none;
+}
+.register-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+}
+.register-button button {
+  background-color: #00a400;
+  border-radius: 6px;
+  border: none;
+  font-size: 18px;
+  color: white;
+  font-weight: 700;
+  width: 50%;
+  padding: 5px;
+  cursor: pointer;
+}
+.register-button button:hover{
+  background-color: #018d01;
+}
+.for-login * {
+  color: #1877f2;
+  font-size: 17px;
+  line-height: 20px;
+  text-align: center;
+}
+.for-login {
+  padding: 5px 0;
+}
+@media only screen and (max-width: 768px) {
+  .register-heading {
+    font-size: 23px;
+  }
+  .p-2 {
+    padding: 6px;
+  }
+  .register-container {
+    width: 400px;
+  }
+  .gap-3 {
+    gap: 9px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .register-heading {
+    font-size: 21px;
+  }
+  .p-2 {
+    padding: 6px;
+  }
+  .register-container {
+    width: 370px;
+  }
+  .register-container input,
+  select {
+    font-size: 12px;
+  }
+  .genders div {
+    font-size: 12px;
+  }
+  .quick {
+    font-size: 13px;
+  }
+  .text-sm {
+    font-size: 10px;
+  }
+  .register img {
+    width: 250px;
+  }
+  .text-signup, .decoration-color {
+    font-size: 10px;
+    line-height: 14px;
+  }
+  .gap-3 {
+    gap: 8px;
+  }
+  .register-button button {
+    font-size: 14px;
+    padding: 4px;
+  }
+  .radio{
+    width: 9px;
+  }
+}
+@media only screen and (max-width: 410px) {
+  .register-heading {
+    font-size: 19px;
+  }
+  .p-2 {
+    padding: 5px;
+  }
+  .register-container {
+    width: 340px;
+  }
+  .register-container input,
+  select {
+    font-size: 11px;
+  }
+  .genders div {
+    font-size: 11px;
+  }
+  .quick {
+    font-size: 12px;
+  }
+  .text-sm {
+    font-size: 9px;
+  }
+  .register img {
+    width: 230px;
+  }
+  .for-login {
+    padding: 0;
+  }
+  .for-login * {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 370px) {
+  .register-heading {
+    font-size: 19px;
+  }
+  .p-2 {
+    padding: 5px;
+  }
+  .register-container {
+    width: 300px;
+  }
+  .register-container input,
+  select {
+    font-size: 10px;
+  }
+  .genders div {
+    font-size: 10px;
+  }
+  .quick {
+    font-size: 11px;
+  }
+  .register img {
+    width: 190px;
+  }
+  .gap-3 {
+    gap: 7px;
+  }
+  .register-button button {
+    font-size: 13px;
+    padding: 3px;
+  }
+}
+@media only screen and (max-width: 310px){
+    .register-container form{
+        padding: 10px;
+    }
+    .register-heading {
+        font-size: 16px;
+      }
+      .p-2 {
+        padding: 3px;
+      }
+      .register-container {
+        width: 260px;
+      }
+      .register-container input,
+      select {
+        font-size: 9px;
+      }
+      .genders div {
+        font-size: 9px;
+      }
+      .quick {
+        font-size: 10px;
+      }
+      .register img {
+        width: 160px;
+      }
+      .gap-3 {
+        gap: 5px;
+      }
+      .register-button button {
+        font-size: 11px;
+        padding: 3px;
+      }
+      .text-signup, .decoration-color{
+        font-size: 8px;
+        line-height: 10px;
+      }
+      .for-login *{
+        font-size: 12px;
+      }
+}
+@media only screen and (max-width: 270px){
+  .register-heading {
+    font-size: 11px;
+  }
+  .p-2 {
+    padding: 2px;
+  }
+  .register-container {
+    width: 220px;
+  }
+  .register-container input,
+  select {
+    font-size: 8px;
+  }
+  .genders div {
+    font-size: 8px;
+  }
+  .quick {
+    font-size: 9px;
+  }
+  .register img {
+    width: 120px;
+  }
+  .gap-3 {
+    gap: 3px;
+  }
+  .register-button button {
+    font-size: 10px;
+    padding: 2px;
+  }
+}
+@media only screen and (max-width: 232px){
+  .text-signup, .decoration-color{
+    font-size: 7px;
+  }
+  .for-login *{
+    font-size: 10px;
+  }
+  .register-container{
+    width: 190px;
+  }
+  .gap-3{
+    gap: 2px;
+  }
+}
+@media only screen and (max-width: 200px){
+  .text-signup, .decoration-color{
+    font-size: 6px;
+  }
+  .for-login *{
+    font-size: 9px;
+  }
+  .register-container{
+    width: 95%px;
+  }
+  .gap-3{
+    gap: 2px;
+  }
+}
+

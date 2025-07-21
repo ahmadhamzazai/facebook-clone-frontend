@@ -1,0 +1,12 @@
+.div-scrollbar {
+  scrollbar-width: thin;
+  overflow-y: scroll;
+  scrollbar-color: transparent transparent;
+  scrollbar-arrow-color: black;
+}
+.div-scrollbar:hover{
+    scrollbar-color: gray lightgray;
+}
+.single-request:hover .delete-request{
+  background-color: #484848;
+}

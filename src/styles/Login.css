@@ -1,0 +1,440 @@
+.mx-login {
+  margin: 0 9rem;
+}
+.font-arial {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.to-register:hover {
+  text-decoration: underline;
+}
+.login-container input{
+    border-radius: 8px;
+}
+@media only screen and (max-width: 1200px) {
+  .text-login {
+    font-size: 1.6rem;
+  }
+  .mx-login {
+    margin: 0 8rem;
+  }
+}
+@media only screen and (max-width: 1150px) {
+  .text-login {
+    font-size: 1.5rem;
+  }
+  .mx-login {
+    margin: 0 7.5rem;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  .text-login {
+    font-size: 1.5rem;
+  }
+  .mx-login {
+    margin: 0 7rem;
+  }
+  .login-container {
+    min-width: 420px;
+  }
+  .p-3 {
+    padding: 10px;
+  }
+  .py-3 {
+    padding: 10px;
+  }
+  .register-green {
+    margin: 10px auto;
+  }
+}
+@media only screen and (max-width: 1150px) {
+  .text-login {
+    font-size: 1.5rem;
+  }
+  .mx-login {
+    margin: 0 6rem;
+  }
+  .login-container {
+    min-width: 410px;
+  }
+  .login-facebook {
+    font-size: 4rem;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .text-login {
+    font-size: 1.4rem;
+  }
+  .mx-login {
+    margin: 0 5rem;
+  }
+  .login-container {
+    min-width: 400px;
+  }
+  .p-3 {
+    padding: 9px;
+  }
+  .py-3 {
+    padding: 9px;
+  }
+  .register-green {
+    margin: 9px auto;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .mx-login {
+    flex-direction: column;
+  }
+  .login-intro {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 0;
+  }
+  .login-container {
+    padding-top: 0;
+  }
+  .login-facebook {
+    font-size: 3.5rem;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .login-facebook {
+    font-size: 3rem;
+  }
+  .text-login {
+    font-size: 1.2rem;
+  }
+  .login-container {
+    min-width: 360px;
+  }
+  .mx-login {
+    margin: 0 4rem;
+  }
+  .p-3 {
+    padding: 9px;
+  }
+  .py-3 {
+    padding: 8px;
+  }
+  .register-green {
+    margin: 8px auto;
+  }
+  .login-container input{
+    font-size: 15px;
+    border-radius: 4px;
+}
+  .login-container button{
+    font-size: 1rem;
+  }
+  .login-container hr{
+    margin: 10px 0;
+  }
+  .login-container p{
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 390px) {
+  .login-facebook {
+    font-size: 2.5rem;
+  }
+  .text-login {
+    font-size: 1rem;
+  }
+  .login-container {
+    min-width: 330px;
+  }
+  .mx-login {
+    margin: 0 2rem;
+  }
+  .p-3 {
+    padding: 8px;
+  }
+  .py-3 {
+    padding: 8px;
+  }
+  .register-green {
+    margin: 8px auto;
+  }
+  .login-container input{
+    font-size: 14px;
+  }
+  .login-container button{
+    font-size: 0.9rem;
+    border-radius: 7px;
+  }
+  .login-container hr{
+    margin: 7px 0;
+  }
+  .login-container p{
+    font-size: 11px;
+  }
+  .register-green{
+    margin: 4px auto;
+  }
+  .login-container a{
+    margin-bottom: 9px;
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 355px) {
+  .login-facebook {
+    font-size: 2.2rem;
+  }
+  .text-login {
+    font-size: 0.9rem;
+  }
+  .login-container {
+    min-width: 310px;
+  }
+  .mx-login {
+    margin: 0 1.7rem;
+  }
+  .p-3 {
+    padding: 7px;
+  }
+  .py-3 {
+    padding: 7px;
+  }
+  .register-green {
+    margin: 7px auto;
+  }
+  .login-container input{
+    font-size: 12px;
+  }
+  .login-container button{
+    font-size: 0.8rem;
+    border-radius: 6px;
+  }
+  .login-container hr{
+    margin: 5px 0;
+  }
+  .login-container p{
+    font-size: 10px;
+  }
+  .register-green{
+    margin: 3px auto;
+  }
+  .login-container a{
+    margin-bottom: 8px;
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 335px) {
+  .login-facebook {
+    font-size: 2rem;
+  }
+  .text-login {
+    font-size: 0.8rem;
+  }
+  .login-container {
+    min-width: 290px;
+  }
+  .mx-login {
+    margin: 0 1.5rem;
+  }
+  .p-3 {
+    padding: 7px;
+  }
+  .py-3 {
+    padding: 7px;
+  }
+  .register-green {
+    margin: 7px auto;
+  }
+  .login-container input{
+    font-size: 11px;
+  }
+  .login-container button{
+    font-size: 0.7rem;
+    border-radius: 6px;
+  }
+  .login-container hr{
+    margin: 3px 0;
+  }
+  .login-container p{
+    font-size: 10px;
+  }
+  .register-green{
+    margin: 3px auto 0;
+  }
+  .login-container a{
+    margin-bottom: 5px;
+    font-size: 11px;
+  }
+}
+@media only screen and (max-width: 305px) {
+  .login-facebook {
+    font-size: 1.8rem;
+  }
+  .text-login {
+    font-size: 0.7rem;
+  }
+  .login-container {
+    min-width: 270px;
+  }
+  .mx-login {
+    margin: 0 1.3rem;
+  }
+  .p-3 {
+    padding: 6px;
+  }
+  .py-3 {
+    padding: 6px;
+  }
+  .register-green {
+    margin: 6px auto;
+  }
+  .login-container input{
+    font-size: 10px;
+    margin-bottom: 12px;
+  }
+  .login-container button{
+    font-size: 0.6rem;
+    border-radius: 6px;
+  }
+  .login-container hr{
+    margin: 5px 0;
+  }
+  .login-container p{
+    font-size: 9px;
+  }
+  .register-green{
+    margin: 3px auto 0;
+  }
+  .login-container a{
+    margin-bottom: 3px;
+    font-size: 10px;
+  }
+}
+@media only screen and (max-width: 255px) {
+  .login-facebook {
+    font-size: 1.6rem;
+  }
+  .text-login {
+    font-size: 0.6rem;
+  }
+  .login-container {
+    min-width: 240px;
+  }
+  .mx-login {
+    margin: 0 1rem;
+  }
+  .p-3 {
+    padding: 6px;
+  }
+  .py-3 {
+    padding: 6px;
+  }
+  .register-green {
+    margin: 6px auto;
+  }
+  .login-container input{
+    font-size: 9px;
+  }
+  .login-container button{
+    font-size: 0.5rem;
+    border-radius: 6px;
+  }
+  .login-container hr{
+    margin: 5px 0;
+  }
+  .login-container p{
+    font-size: 8px;
+  }
+  .register-green{
+    margin: 3px auto 0;
+  }
+  .login-container a{
+    margin-bottom: 3px;
+    font-size: 9px;
+  }
+}
+@media only screen and (max-width: 285px) {
+  .login-facebook {
+    font-size: 1.4rem;
+  }
+  .text-login {
+    font-size: 0.5rem;
+  }
+  .login-container {
+    min-width: 220px;
+  }
+  .mx-login {
+    margin: 0 0.9rem;
+  }
+  .p-3 {
+    padding: 6px;
+  }
+  .py-3 {
+    padding: 6px;
+  }
+  .register-green {
+    margin: 5px auto;
+  }
+  .login-container input{
+    font-size: 9px;
+    margin-bottom: 10px;
+  }
+  .login-container button{
+    font-size: 0.5rem;
+    border-radius: 6px;
+  }
+  .login-container hr{
+    margin: 5px 0;
+  }
+  .login-container p{
+    font-size: 8px;
+  }
+  .register-green{
+    margin: 3px auto 0;
+  }
+  .login-container a{
+    margin-bottom: 3px;
+    font-size: 9px;
+  }
+}
+@media only screen and (max-width: 235px) {
+  .login-container {
+    min-width: 190px;
+  }
+  .mx-login {
+    margin: 0 0.9rem;
+  }
+  .p-3 {
+    padding: 5px;
+  }
+  .py-3 {
+    padding: 5px;
+  }
+  .register-green {
+    margin: 5px auto;
+  }
+  .login-container input{
+    font-size: 9px;
+    margin-bottom: 10px;
+  }
+  .login-container button{
+    font-size: 0.5rem;
+    border-radius: 6px;
+}
+.login-container .login{
+      margin-bottom: 10px;
+
+  }
+  .login-container hr{
+    margin: 5px 0;
+  }
+  .login-container p{
+    font-size: 8px;
+  }
+  .register-green{
+    margin: 3px auto 0;
+  }
+  .login-container a{
+    margin-bottom: 3px;
+    font-size: 9px;
+  }
+  .login-form-container{
+    padding: 1rem;
+  }
+}

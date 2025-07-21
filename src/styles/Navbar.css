@@ -1,0 +1,4 @@
+.profile-image img:hover{
+    filter: grayscale(10%);
+    cursor: pointer;
+}
