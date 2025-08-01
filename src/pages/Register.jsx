@@ -72,7 +72,7 @@ function Register() {
 
     try {
       const response = await axios.post(
-        "http://localhost:3000/api/register",
+        "https://facebook-clone-backend-production-e1fc.up.railway.app/api/register",
         formData,
         {
           headers: {

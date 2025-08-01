@@ -13,9 +13,12 @@ const StoryList = () => {
 
   const fetchStories = async () => {
     try {
-      const res = await axios.get(`http://localhost:3000/api/story`, {
-        withCredentials: true,
-      });
+      const res = await axios.get(
+        `https://facebook-clone-backend-production-e1fc.up.railway.app/api/story`,
+        {
+          withCredentials: true,
+        }
+      );
       setStories(res.data);
     } catch (err) {
       console.error("Failed to load stories:", err);

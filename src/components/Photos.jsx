@@ -7,9 +7,12 @@ const Photos = () => {
   useEffect(() => {
     const fetchRecentImages = async () => {
       try {
-        const res = await axios.get("http://localhost:3000/api/recent-uploads", {
-          withCredentials: true,
-        });
+        const res = await axios.get(
+          "https://facebook-clone-backend-production-e1fc.up.railway.app/api/recent-uploads",
+          {
+            withCredentials: true,
+          }
+        );
         setImages(res.data.images);
       } catch (error) {
         console.error("Error fetching images:", error);

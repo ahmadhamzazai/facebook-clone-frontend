@@ -64,7 +64,7 @@ const isPostActive = currentPath === `/profile/${params.id}`;
   const fetchUserProfile = async () => {
     try {
       const res = await axios.get(
-        `http://localhost:3000/api/profile/${params.id}`
+        `https://facebook-clone-backend-production-e1fc.up.railway.app/api/profile/${params.id}`
       );
       if (res.data.success) {
         dispatch(setUserProfile(res.data.user));
@@ -88,7 +88,7 @@ const isPostActive = currentPath === `/profile/${params.id}`;
     try {
       dispatch(setLoading(true));
       const res = await axios.put(
-        "http://localhost:3000/api/update/cover-picture",
+        "https://facebook-clone-backend-production-e1fc.up.railway.app/api/update/cover-picture",
         formData,
         {
           headers: {

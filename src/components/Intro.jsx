@@ -28,7 +28,7 @@ const Intro = () => {
     setLoading(true);
     try {
       const res = await axios.put(
-        "http://localhost:3000/api/update-bio",
+        "https://facebook-clone-backend-production-e1fc.up.railway.app/api/update-bio",
         formData,
         { withCredentials: true }
       );

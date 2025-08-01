@@ -24,7 +24,7 @@ const Login = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost:3000/api/login",
+        "https://facebook-clone-backend-production-e1fc.up.railway.app/api/login",
         formData,
         {
           headers: {

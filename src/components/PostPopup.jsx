@@ -66,7 +66,7 @@ const PostPopup = forwardRef(({ setShowPopup, handlePostCreated }, postRef) => {
 
     try {
       const response = await axios.post(
-        "http://localhost:3000/api/create-post",
+        "https://facebook-clone-backend-production-e1fc.up.railway.app/api/create-post",
         formData,
         {
           headers: {

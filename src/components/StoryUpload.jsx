@@ -23,7 +23,7 @@ const StoryUpload = ({ onStoryUploaded }) => {
 
     try {
       const res = await axios.post(
-        "http://localhost:3000/api/story",
+        "https://facebook-clone-backend-production-e1fc.up.railway.app/api/story",
         formData,
         {
           headers: { "Content-Type": "multipart/form-data" },

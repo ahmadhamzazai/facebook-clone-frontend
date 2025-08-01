@@ -24,9 +24,12 @@ const PostCard = ({ posts, onPostDelete }) => {
     if (!confirmDelete) return;
 
     try {
-      await axios.delete(`http://localhost:3000/api/delete-post/${posts._id}`, {
-        withCredentials: true,
-      });
+      await axios.delete(
+        `https://facebook-clone-backend-production-e1fc.up.railway.app/api/delete-post/${posts._id}`,
+        {
+          withCredentials: true,
+        }
+      );
 
       toast.success("Post deleted successfully");
       onPostDelete(posts._id);

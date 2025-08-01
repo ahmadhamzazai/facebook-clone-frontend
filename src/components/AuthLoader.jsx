@@ -10,9 +10,12 @@ const AuthLoader = () => {
     const loadUser = async () => {
       dispatch(setLoading(true));
       try {
-        const res = await axios.get("http://localhost:3000/api/me", {
-          withCredentials: true,
-        });
+        const res = await axios.get(
+          "https://facebook-clone-backend-production-e1fc.up.railway.app/api/me",
+          {
+            withCredentials: true,
+          }
+        );
         dispatch(setUser(res.data.user));
       } catch (err) {
         dispatch(setUser(null));

@@ -65,9 +65,12 @@ const Post = () => {
     setError(null);
 
     try {
-      const response = await axios.get("http://localhost:3000/api/my-posts", {
-        withCredentials: true,
-      });
+      const response = await axios.get(
+        "https://facebook-clone-backend-production-e1fc.up.railway.app/api/my-posts",
+        {
+          withCredentials: true,
+        }
+      );
 
       if (response.data.success) {
         setPosts(response.data.posts);

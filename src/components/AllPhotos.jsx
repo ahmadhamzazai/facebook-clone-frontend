@@ -9,7 +9,7 @@ const AllPhotos = () => {
     const fetchRecentImages = async () => {
       try {
         const res = await axios.get(
-          "http://localhost:3000/api/recent-uploads-all",
+          "https://facebook-clone-backend-production-e1fc.up.railway.app/api/recent-uploads-all",
           {
             withCredentials: true,
           }

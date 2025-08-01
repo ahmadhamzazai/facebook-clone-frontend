@@ -19,7 +19,9 @@ const ProfileMenu = forwardRef((props, popupRef) => {
 
   const logoutHandler = async () => {
     try {
-      const response = await axios.get("http://localhost:3000/api/logout");
+      const response = await axios.get(
+        "https://facebook-clone-backend-production-e1fc.up.railway.app/api/logout"
+      );
       if (response.data.success) {
         dispatch(setUser(null));
       }

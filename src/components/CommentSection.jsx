@@ -18,7 +18,7 @@ const CommentSection = ({
     const fetchComments = async () => {
       try {
         const res = await axios.get(
-          `http://localhost:3000/api/post/comments/${postId}`,
+          `https://facebook-clone-backend-production-e1fc.up.railway.app/api/post/comments/${postId}`,
           {
             withCredentials: true,
           }
@@ -38,7 +38,7 @@ const CommentSection = ({
 
     try {
       const res = await axios.post(
-        `http://localhost:3000/api/post/comment/${postId}`,
+        `https://facebook-clone-backend-production-e1fc.up.railway.app/api/post/comment/${postId}`,
         { text: commentText },
         { withCredentials: true }
       );

@@ -27,7 +27,7 @@ const Reaction = ({ posts }) => {
   const handleLike = async () => {
     try {
       const res = await axios.put(
-        `http://localhost:3000/api/post/like/${posts._id}`,
+        `https://facebook-clone-backend-production-e1fc.up.railway.app/api/post/like/${posts._id}`,
         {},
         { withCredentials: true }
       );
